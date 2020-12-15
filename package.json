@@ -1,0 +1,30 @@
+{
+  "name": "prismax",
+  "version": "1.0.0",
+  "description": "Maxed out prisma client, smile baby",
+  "main": "index.js",
+  "repository": "git@github.com:calebpitan/prismax.git",
+  "author": "Caleb Adepitan <calebpitan@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.11.0",
+    "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
+    "commander": "^6.2.0",
+    "fast-glob": "^3.2.4"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.11.0",
+    "@types/node": "^14.14.8",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "@prisma/cli": "^2.11.0",
+    "@prisma/client": "^2.11.0"
+  }
+}
